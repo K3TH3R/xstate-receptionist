@@ -1,0 +1,38 @@
+{
+  "name": "xstate-receptionist",
+  "version": "0.0.0",
+  "description": "A unified event choreographer for XState",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn tsc -w",
+    "commit": "git-cz",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "commitizen": "^4.2.4",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  },
+  "bugs": "https://github.com/k3th3r/xstate-receptionist/issues",
+  "author": {
+    "name": "Kether Saturnius",
+    "email": "iamkether@gmail.com",
+    "url": "https://www.k3th3r.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k3th3r/xstate-receptionist",
+    "directory": "packages/core"
+  }
+}
